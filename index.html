@@ -22,9 +22,36 @@
         </div>
     </header>
     <main>
-        <div class="script">
-            <script src="./js/app.js"></script>
+        <div id="cardDiv"> 
+            <form id="newCard">
+                <label for=" fullName">Full name:</label><br>
+                <input type="text" id="fullName" name="fullName" placeholder="First and last name"><br>
+                <label for="department">Choose your department:</label><br>
+                <select name="department" id="department">
+                    <option value="Administration">Administration</option>
+                    <option value="marketing">marketing</option>
+                    <option value="development">development</option>
+                    <option value="finance">finance</option>
+                </select><br>
+                <label for="level">Choose your level:</label><br>
+                <select name="level" id="level">
+                    <option value="Junior">Junior</option>
+                    <option value="Mid-Senior">Mid-Senior</option>
+                    <option value="Senior">Senior</option>
+                </select><br>
+                <label for="newImg">Your Image:</label><br>
+                <input type="file" id="newImg" name="newImg" placeholder="Image url"><br>
+                <input id="btn" type="submit" value="Submit">
+            </form>
+                <div id="oldCard">
+
+                </div> 
         </div>
+
+
+
+        <script src="./js/app.js"></script>
+
     </main>
     <footer>
         <a href="#" class="fa fa-facebook"></a>
