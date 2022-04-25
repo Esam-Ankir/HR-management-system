@@ -50,3 +50,15 @@ footer {
 .script {
     font-size: larger;
 }
+table, th, td {
+    border: 1px solid black;
+  }
+  th{
+      background-color: aqua;
+  }
+  td{
+      background-color: gray;
+  }
+  table{ 
+      margin: 3rem;
+  }
